@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 15
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "jp.ksksue.tutorial.TWE_Control"
+        minSdkVersion 18
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':fTDriver')
+    compile 'com.android.support:support-v4:18.0.0'
+    compile files('libs/achartengine-1.1.0.jar')
+}

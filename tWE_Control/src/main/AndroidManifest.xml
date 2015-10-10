@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.ksksue.tutorial.TWE_Control"
+    android:versionCode="3"
+    android:versionName="3.0">
+
+    <!--
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+     -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="jp.ksksue.tutorial.TWE_Control.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="jp.ksksue.tutorial.TWE_Control.Title"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="jp.ksksue.tutorial.TWE_Control.ChartList"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="jp.ksksue.tutorial.TWE_Control.TWE_Control"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="jp.ksksue.tutorial.TWE_Control.Voltage"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="jp.ksksue.tutorial.TWE_Control.LQI"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="jp.ksksue.tutorial.TWE_Control.Temp01"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="jp.ksksue.tutorial.TWE_Control.Temp02"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="jp.ksksue.tutorial.TWE_Control.Temp03"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="jp.ksksue.tutorial.TWE_Control.Temp04"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="jp.ksksue.tutorial.TWE_Control.EzyDine"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

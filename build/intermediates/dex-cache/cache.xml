@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Intel\INDE\IDEintegration\SDK\Extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\sugimura\Documents\src\Android\TWE_Control1\tWE_Control\build\intermediates\pre-dexed\debug\support-v4-18.0.0-03f4fd746775ab8440f4943f3fc3140ed34c318e.jar" />
+    </item>
+    <item
+        jar="C:\Users\sugimura\Documents\src\Android\TWE_Control1\tWE_Control\build\intermediates\exploded-aar\TWE_Control1\fTDriver\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c6a5680d82fc7e68dc257f47439291a3e51fb49b">
+        <dex dex="C:\Users\sugimura\Documents\src\Android\TWE_Control1\tWE_Control\build\intermediates\pre-dexed\debug\classes-f0be696e4a15b7d461abc89ad92e67a0bc3db7bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\sugimura\Documents\src\Android\TWE_Control1\tWE_Control\libs\achartengine-1.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="C:\Users\sugimura\Documents\src\Android\TWE_Control1\tWE_Control\build\intermediates\pre-dexed\debug\achartengine-1.1.0-ffb20a0d652fdabd3978a40c2977afe592054b17.jar" />
+    </item>
+
+</items>

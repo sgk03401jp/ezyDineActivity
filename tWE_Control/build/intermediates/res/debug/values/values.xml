@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/sugimura/Documents/src/Android/TWE_Control1/tWE_Control/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <color name="blue">#3333cc</color>
+    <color name="gray">#696969</color>
+    <color name="green">#33cc33</color>
+    <color name="red">#cc3333</color>
+    <color name="text_color">#333333</color>
+    <color name="white">#FFFFFF</color>
+    <!-- From: file:/C:/Users/sugimura/Documents/src/Android/TWE_Control1/tWE_Control/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/sugimura/Documents/src/Android/TWE_Control1/tWE_Control/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="add">更新</string>
+    <string name="app_name">TWE Control</string>
+    <string name="connect">接続</string>
+    <string name="control_d0">DOの制御</string>
+    <string name="d01_off">D01 OFF</string>
+    <string name="d01_on">D01 ON</string>
+    <string name="d02_off">D02 OFF</string>
+    <string name="d02_on">D02 ON</string>
+    <string name="d03_off">D03 OFF</string>
+    <string name="d03_on">D03 ON</string>
+    <string name="d04_off">D04 OFF</string>
+    <string name="d04_on">D04 ON</string>
+    <string name="date_time">日時</string>
+    <string name="disconnect">切断</string>
+    <string name="elapse_time">経過時間(sec)</string>
+    <string name="ezy_000001">000001</string>
+    <string name="ezy_000002">000002</string>
+    <string name="ezy_000003">000003</string>
+    <string name="ezy_000004">000004</string>
+    <string name="ezy_000005">000005</string>
+    <string name="ezy_000006">000006</string>
+    <string name="ezy_000007">000007</string>
+    <string name="ezy_000008">000008</string>
+    <string name="ezy_000009">000009</string>
+    <string name="ezy_000010">000010</string>
+    <string name="ezy_999999">999999</string>
+    <string name="ezy_dine">EzyDine</string>
+    <string name="ezydine">ezyDine</string>
+    <!-- From: file:/C:/Users/sugimura/Documents/src/Android/TWE_Control1/tWE_Control/build/intermediates/exploded-aar/TWE_Control1/fTDriver/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="hello">Hello World!</string>
+    <!-- From: file:/C:/Users/sugimura/Documents/src/Android/TWE_Control1/tWE_Control/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="ledall_off">全消灯</string>
+    <string name="ledall_on">全点灯</string>
+    <string name="lqi">LQI</string>
+    <string name="lqi_graph">LQIグラフ</string>
+    <string name="main_menu">メインメニュー</string>
+    <string name="new_series">グラフ表示</string>
+    <string name="not_connect">未接続</string>
+    <string name="pwm_control">PWMの制御"</string>
+    <string name="remote_control">遠隔制御（リモートコントロール）</string>
+    <string name="remote_monitor">遠隔監視(リモートモニタリング)</string>
+    <string name="temp">温度(℃)</string>
+    <string name="temp_graph">温度変位グラフ</string>
+    <string name="text_view">TextView</string>
+    <string name="twe_control">TWE Control</string>
+    <string name="voltage">電圧(mV)</string>
+    <string name="voltage_graph">電圧変位グラフ</string>
+    <!-- From: file:/C:/Users/sugimura/Documents/src/Android/TWE_Control1/tWE_Control/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

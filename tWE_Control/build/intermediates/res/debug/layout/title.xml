@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+     >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/main_menu" />
+
+    <View
+        android:id="@+id/View1"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.5" />
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="match_parent"
+    android:layout_height="99dp"
+    android:src="@drawable/logo" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_weight="0"
+    android:text="@string/twe_control"
+    android:textSize="30dp" />
+
+<View
+    android:id="@+id/View4"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1.5" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0"
+    android:gravity="center"
+     >
+
+    <Button
+        android:id="@+id/btnBegin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onBeginClick"
+        android:text="@string/connect"
+         />
+
+    <Button
+        android:id="@+id/btnEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onEndClick"
+        android:text="@string/disconnect" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:text="@string/not_connect" />
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/RC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remote_control" />
+
+<View
+    android:id="@+id/View2"
+    android:layout_width="0dp"
+    android:layout_height="5dp"
+    android:layout_weight="0" />
+
+    <Button
+        android:id="@+id/RS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remote_monitor" />
+
+    <Button
+        android:id="@+id/ezyDine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ezydine" />
+
+<View
+    android:id="@+id/View3"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1.5" >
+
+</View>
+</LinearLayout>
+<!-- From: file:/C:/Users/sugimura/Documents/src/Android/TWE_Control1/tWE_Control/src/main/res/layout/title.xml -->

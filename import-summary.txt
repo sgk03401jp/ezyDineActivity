@@ -1,0 +1,149 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From FTDriver:
+* proguard.cfg
+From TWE_Control:
+* TWE_Control1\
+* TWE_Control1\.classpath
+* TWE_Control1\.project
+* TWE_Control1\.settings\
+* TWE_Control1\.settings\org.eclipse.ltk.core.refactoring.prefs
+* TWE_Control1\AndroidManifest.xml
+* TWE_Control1\Thumbs.db
+* TWE_Control1\bin\
+* TWE_Control1\bin\AndroidManifest.xml
+* TWE_Control1\bin\R.txt
+* TWE_Control1\bin\classes\
+* TWE_Control1\bin\classes\jp\
+* TWE_Control1\bin\classes\jp\ksksue\
+* TWE_Control1\bin\classes\jp\ksksue\driver\
+* TWE_Control1\bin\classes\jp\ksksue\driver\serial\
+* TWE_Control1\bin\classes\jp\ksksue\driver\serial\R$drawable.class
+* TWE_Control1\bin\classes\jp\ksksue\driver\serial\R$layout.class
+* TWE_Control1\bin\classes\jp\ksksue\driver\serial\R$string.class
+* TWE_Control1\bin\classes\jp\ksksue\driver\serial\R.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\BuildConfig.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\R$attr.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\R$dimen.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\R$drawable.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\R$id.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\R$layout.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\R$menu.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\R$string.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\R$style.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\R.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\TWE_Control$1$1.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\TWE_Control$1$2.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\TWE_Control$1.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\TWE_Control$2.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\TWE_Control$3.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\TWE_Control$4.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\TWE_Control$5.class
+* TWE_Control1\bin\classes\jp\ksksue\tutorial\TWE_Control\TWE_Control.class
+* TWE_Control1\bin\jarlist.cache
+* TWE_Control1\gen\
+* TWE_Control1\gen\jp\
+* TWE_Control1\gen\jp\ksksue\
+* TWE_Control1\gen\jp\ksksue\driver\
+* TWE_Control1\gen\jp\ksksue\driver\serial\
+* TWE_Control1\gen\jp\ksksue\driver\serial\R.java
+* TWE_Control1\gen\jp\ksksue\tutorial\
+* TWE_Control1\gen\jp\ksksue\tutorial\TWE_Control\
+* TWE_Control1\gen\jp\ksksue\tutorial\TWE_Control\BuildConfig.java
+* TWE_Control1\gen\jp\ksksue\tutorial\TWE_Control\R.java
+* TWE_Control1\lint.xml
+* TWE_Control1\proguard-project.txt
+* TWE_Control1\project.properties
+* TWE_Control1\res\
+* TWE_Control1\res\drawable-hdpi\
+* TWE_Control1\res\drawable-hdpi\ic_action_search.png
+* TWE_Control1\res\drawable-hdpi\ic_launcher.png
+* TWE_Control1\res\drawable-ldpi\
+* TWE_Control1\res\drawable-ldpi\ic_launcher.png
+* TWE_Control1\res\drawable-mdpi\
+* TWE_Control1\res\drawable-mdpi\ic_action_search.png
+* TWE_Control1\res\drawable-mdpi\ic_launcher.png
+* TWE_Control1\res\drawable-xhdpi\
+* TWE_Control1\res\drawable-xhdpi\ic_action_search.png
+* TWE_Control1\res\drawable-xhdpi\ic_launcher.png
+* TWE_Control1\res\drawable\
+* TWE_Control1\res\drawable\tocos01.png
+* TWE_Control1\res\layout\
+* TWE_Control1\res\layout\activity_twe_control.xml
+* TWE_Control1\res\menu\
+* TWE_Control1\res\menu\activity_ftdriver_tutorial1.xml
+* TWE_Control1\res\values-v11\
+* TWE_Control1\res\values-v11\styles.xml
+* TWE_Control1\res\values\
+* TWE_Control1\res\values\display.xml
+* TWE_Control1\res\values\strings.xml
+* TWE_Control1\res\values\styles.xml
+* TWE_Control1\src\
+* TWE_Control1\src\jp\
+* TWE_Control1\src\jp\ksksue\
+* TWE_Control1\src\jp\ksksue\tutorial\
+* TWE_Control1\src\jp\ksksue\tutorial\TWE_Control\
+* TWE_Control1\src\jp\ksksue\tutorial\TWE_Control\TWE_Control.java
+* Thumbs.db
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In FTDriver:
+* AndroidManifest.xml => fTDriver\src\main\AndroidManifest.xml
+* lint.xml => fTDriver\lint.xml
+* res\ => fTDriver\src\main\res\
+* src\ => fTDriver\src\main\java\
+In TWE_Control:
+* AndroidManifest.xml => tWE_Control\src\main\AndroidManifest.xml
+* libs\achartengine-1.1.0.jar => tWE_Control\libs\achartengine-1.1.0.jar
+* res\ => tWE_Control\src\main\res\
+* src\ => tWE_Control\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
